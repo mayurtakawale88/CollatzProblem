@@ -24,7 +24,7 @@ Which starting number, under one million, produces the longest chain?
 
 	3. Execute the program
 	 ``` 
-	    php  CollatzProblem.php {{range}}
+	    php  index.php {{range}}
          Note :- replace {{range}} with 1000000 to get starting number which produce the longest chain under 1 million.
  	 ```
 
@@ -34,7 +34,7 @@ Which starting number, under one million, produces the longest chain?
 
 	2. Execute Below URL
 	 ``` 
-	     http://your_domain_name/CollatzProblem/CollatzProblem.php?number={{range}}
+	     http://your_domain_name/CollatzProblem/index.php?number={{range}}
          Note :- replace {{range}} with 1000000 to get starting number which produce the longest chain under 1 million.
  	 ```
 	3. Wait For a 60 to 70 seconds to get result

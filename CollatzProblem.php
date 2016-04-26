@@ -54,9 +54,9 @@ class CollatzProblem {
             return $this->_recArrayCache[$i];
 
         if ($i % 2 == 0) {
-            $chainLength = 1 + $this->getArrayLength($i / 2);
+            $chainLength = 1 + $this->getChainLength($i / 2);
         } else {
-            $chainLength = 1 + $this->getArrayLength(3 * $i + 1);
+            $chainLength = 1 + $this->getChainLength(3 * $i + 1);
         }
 
         if ($i < count($this->_recArrayCache)) {
